@@ -13,5 +13,5 @@ age = st.number_input("Age: ")
 
 #Display a message when button is clicked
 if st.button("Submit"):
-    st.write("hello {name}, welcome to app 1")
+    st.write("hello", (name), "welcome to app 1")
 

@@ -16,7 +16,7 @@ if st.button("Submit"):
     st.write("hello", (name), "welcome to app 1")
     if age < 18:
         st.write("Dam, only", (age), "? You're young")
-    elif age = 18:
+    elif age == 18:
         st.write("Ay, new adult. nice")
     else:
         st.write("You're", (age), "?! Old people *sigh*")
